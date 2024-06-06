@@ -164,7 +164,11 @@ export EDITOR="/usr/bin/nvim"
 export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 export PATH="$PATH:$JAVA_HOME/bin"
 
+# ---- Config Version Control ----
 alias config='/usr/bin/git --git-dir=/home/griffdawg123/.cfg/ --work-tree=/home/griffdawg123'
+
+# ---- Display System info ---- 
+fastfetch
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
